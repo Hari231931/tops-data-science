@@ -1,0 +1,23 @@
+1.Why is text considered unstructured data compared to tabular data?
+Ans: Text data is considered unstructured because it does not follow a fixed format of rows and columns like tabular data. Reviews are written in natural language, where sentence length, grammar, vocabulary, and writing style vary from person to person. Unlike structured data, text cannot be directly analyzed mathematically without preprocessing.
+
+2.What is a corpus in NLP terminology?
+Ans: In NLP, a corpus is a large collection of text documents used for analysis or training language models. In the Amazon Reviews dataset, all reviews together form the corpus.
+
+3.What does it tell you when words like 'the', 'a', and 'is' dominate the frequency list?
+Ans: This indicates that the most frequent words are mostly stop words. Stop words are common grammatical words that appear very often but usually carry little sentiment or meaningful information. For sentiment analysis, they are often removed because they do not help distinguish positive or negative opinions.
+
+4.List the stages of a standard NLP pipeline in order.
+Ans: A standard NLP pipeline generally follows these stages:
+
+   1. Text Collection
+   2. Text Cleaning / Preprocessing
+   3. Tokenization
+   4. Stop-word Removal
+   5. Stemming / Lemmatization
+   6. Feature Extraction (e.g., Bag of Words, TF-IDF, Embeddings)
+   7. Model Building / Training
+   8. Evaluation and Prediction
+
+5.At which stage of the NLP pipeline are URLs, emojis, and symbols handled?
+Ans: URLs, emojis, special symbols, punctuation, and other noisy patterns are handled during the Text Cleaning / Preprocessing stage of the NLP pipeline.
