@@ -1,0 +1,31 @@
+1. Fashion MNIST contains raw 28x28 pixel images. Why is Deep Learning more
+suitable than traditional ML for classifying raw image data?
+Ans: Deep Learning is more suitable for raw image data like Fashion MNIST because it can automatically learn important visual features (edges, shapes, textures, patterns) directly from pixels. Traditional ML usually requires manual feature extraction, where humans must define image features before classification. Deep Learning models, especially CNNs, learn these features automatically and handle high-dimensional image data efficiently.
+
+2. The DL workflow follows a fixed sequence of stages. List the stages of the Deep
+Learning workflow in order.
+Ans: Typical stages of the Deep Learning workflow in order:
+
+Data Collection
+Data Preprocessing
+Train-Test Split
+Model Selection / Architecture Design
+Model Training
+Validation & Hyperparameter Tuning
+Model Evaluation
+Deployment / Prediction
+
+3. A biological neuron fires only when incoming signals exceed a threshold. What
+is the artificial equivalent of this threshold mechanism in a neural network?
+Ans: The artificial equivalent of the biological neuron’s threshold mechanism is the activation function combined with a bias term in a neural network neuron. The neuron produces an output only after the weighted sum passes through the activation function.
+
+4. You must choose between an ANN and a CNN for Fashion MNIST. What
+property of CNNs makes them better suited for image data than a plain ANN?
+Ans:CNNs are better suited for image data because they use convolutional layers that automatically detect spatial features and local patterns such as edges, textures, and shapes. CNNs also preserve spatial relationships between pixels, unlike a plain ANN which treats all pixels independently.
+
+5. Deep Learning was theorized decades ago but became practical only
+recently. Name two factors that enabled the rise of modern Deep Learning?
+Ans:Two major factors that enabled the rise of modern Deep Learning are:
+
+Availability of large datasets (Big Data)
+Powerful hardware such as GPUs/TPUs for fast parallel computation
